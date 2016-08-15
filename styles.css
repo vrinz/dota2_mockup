@@ -1,0 +1,174 @@
+#h1{
+  color:white;
+  font-family:arial, monospace;
+  text-align:center;
+    background-color: #918e82;
+    padding:20px;
+    margin:0;
+    top:0;
+    width:100%;
+  }
+
+table{
+  font-family:arial, sans-serif;
+  border-collapse:collapse;
+  width:100%;
+  opacity: 0.85;
+
+}
+
+td{
+  border:1px solid black;
+  text-align:center;
+  padding:10px;
+}
+
+th{
+  background-color:#4CAF50;
+  height:25px;
+  border-right: 1px solid black;
+  padding:10px;
+  text-align:center;
+  color:white;
+}
+
+th:first-child{
+  border-top-left-radius:5px;
+}
+
+th:last-child{
+  border-right:none;
+  border-top-right-radius:5px;
+}
+
+tr:nth-child(odd){
+  background-color:#918e82;
+}
+
+tr:nth-child(even){
+  background-color:#f2f2f2;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  background-color:#333333;
+  position: fixed;
+  width:100%;
+  z-index:+1;
+}
+
+li{
+  float:left;
+  width:20%;
+}
+
+li:last-child{
+  border-right:none;
+  display:block;
+  overflow:hidden;
+}
+
+li a{
+  display:block;
+  color:white;
+  font-style:italic;
+  text-align:center;
+  padding:16px;
+  text-decoration:none;
+
+}
+
+li a:hover{
+  background-color:#dddddd;
+  color:#333333;
+}
+
+.img1{
+  width:100%;
+  height:auto;
+  margin-top:127px;
+  margin-bottom:-5px;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+
+}
+
+div.container{
+  margin:0;
+  padding-top:30px;
+  padding-bottom: 30px;
+  /*background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed*/
+  height:auto;
+  background-position:center;
+  background-image:url(images/dota2logo.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+hr{
+  margin:0;
+}
+
+div.transparentcon{
+  margin:100px 150px 100px 150px;
+  padding:20px 50px 20px 50px;
+  border:1px solid black;
+  border-radius:5px;
+  background-color:#ffffff;
+  opacity:0.5;
+}
+
+div.table-container{
+  margin:0;
+  padding: 150px 150px 150px 150px;
+  background-position:center;
+  background-image:url(images/aegisbig.jpg);
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:auto;
+}
+
+
+div.gallery-container{
+  margin:0 ;
+  display:inline-block;
+  background-position:center;
+  background-image:url(images/aegisbig.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:auto;
+}
+
+div.gallery-content{
+  margin: 70px 30px 70px 90px;
+  border:1px solid #ccc;
+  display:inline-block;
+  width:200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery-content:hover{
+  border:1px solid #777;
+}
+
+div.gallery-content img{
+  width:100%;
+  height:120px;
+  margin:0;
+}
+
+div.description{
+  margin-top:0;
+  padding:15px;
+  background-color:white;
+  text-align:center;
+}
